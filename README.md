@@ -1,16 +1,8 @@
-# news_snack
+# news_gatherer
+A Flutter News App that displays news articles by genres, personalized user preferences, and an extensible architecture using APIs with state management integration.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Features
+Fetch News: Fetch news articles dynamically from an API.
+Genres of News: Display different genres/categories of news on the home page.
+User Preferences: Show personalized news based on user preferences.
+Extensible API System: Implement interfaced methods in classes for making API calls.
