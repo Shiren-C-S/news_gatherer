@@ -1,0 +1,33 @@
+name: news_gatherer
+description: A new Flutter App that fetches news
+
+publish_to: 'none'
+version: 1.0.0+2
+
+environment:
+  sdk: '>=2.18.1 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2
+  webview_flutter: ^4.10.0
+  rename: ^3.0.2
+  url_launcher: ^6.3.1
+  url_launcher_ios: ^6.3.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/img/placeholder.jfif
+    - assets/img/logo.png
